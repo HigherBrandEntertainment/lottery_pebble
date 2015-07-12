@@ -13,7 +13,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_color(s_text_layer, GColorBlack);
   text_layer_set_text(s_text_layer, "Lottery Report");
 
-  text_layer_set_font(s_text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+  text_layer_set_font(s_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
   text_layer_set_text_alignment(s_text_layer, GTextAlignmentCenter);
 
   // Add it as a child layer to the Window's root layer
